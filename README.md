@@ -1,3 +1,2 @@
 # Escape-Room
-Not from an actual company
-a little Prject I startet working on
+Not from an actual company just a little Project I startet working on
