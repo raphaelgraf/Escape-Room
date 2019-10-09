@@ -1,0 +1,164 @@
+body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+
+a:hover{
+	color:red;
+}
+
+.button:hover{
+	background:red;
+	color:#fff;
+}
+
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+	background-color:#coral;
+	color:#a15a12;
+}
+
+#navbar{
+	background-color:#333;
+	color:#fff;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+	
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+#showcase{
+	background-image:url('../images/kopf.jpg');
+	background-position:center right;
+	min-height:300px;
+	margin-bottom:30px;
+	text-align: center;
+	color:#f4f4f4;
+}
+
+#showcase2{
+	background-image:url('../images/baumlang.jpg');
+	background-position:center right;
+	min-height:300px;
+	margin-bottom:30px;
+	text-align: center;
+	color:#f4f4f4;
+	overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+#showcase h1{
+	color:#fff;
+	font-size:50px;
+	line-height: 1.6em;
+	padding-top:30px;
+}
+
+#main{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+
+
+#sidebar {
+	float:right;
+	width:30%;
+	
+	color:black;
+	padding-left: 20px;
+	padding-right: 50px;
+	margin: 10px, 0px;
+	box-sizing: border-box + 10px;
+	border-collapse: collapse;
+	border: 2px solid black;
+	
+}
+
+#sidebar th,td{
+	
+	
+	
+	padding-right: 10px;
+	
+	
+}
+
+#sidebar2{
+	float:left;
+	width:30%;
+	color:black;
+	padding-right: 30px;
+	border-collapse: collapse;
+	border: 2px solid black;
+	margin-top:10px;
+	
+}
+
+#sidebar3{
+	float:left;
+	width:30%;
+	color:black;
+	
+	
+	
+	margin-top:10px;
+	
+}
+
+
+#main-footer{
+	background:gray;
+	color:white;
+	text-align: center;
+	padding:20px;
+	margin-top:200px;
+}
+
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}
+
+
+
+
+
